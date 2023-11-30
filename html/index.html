@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a class="nav__link" href="index.html">Головна</a></li>
+                    <li><a class="nav__link" href="shop.html">Наша продукція</a></li>
+                    <li><a class="nav__link" href="supplices.html">Наші послуги</a></li>
+                    <li><a class="nav__link" href="supplices.html">Контакти</a></li>
+                    <ul class="nav_info">
+                        <li class="nav__item">
+                            <a class="nav__link" href="https://goo.gl/maps/JZCiQYJBEJ92gMPe6" target="_blank">
+                            <address>
+                                м. Чернівці, <br />
+                                вул. Університецька, 28
+                            </address>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="tel:+380976834563">
+                            +380976834563 <br />
+                            <span>Щодня і цілодобово</span>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+                <h1 class="logo">Cолодка скриня</h1>
+                <a class="log-in" href="#id01">УВІЙТИ</a>
+                <div id="id01" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <header class="headr modal-container">
+                                <a href="#" class="closebtn">×</a>
+                                <h2>УВІЙТИ</h2>
+                            </header>
+                            <div class="modal-container-main">
+                                <input
+                                class="email inp"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="електронна адреса"
+                                />
+                                <input
+                                class="password inp"
+                                type="password"
+                                name="password"
+                                id="password"
+                                placeholder="пароль"
+                                />
+                                <a class="log-in-btn" href="">УВІЙТИ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html">
+                <img class="arrow" src="/images/arrow-up.png" alt="">
+            </a>
+        </nav>
+    
+        <main>
+            <div class="intro">
+                <div class="container">
+                    <div class="intro__content">
+                        <a href="#" class="intro__btn"> Найсмачніші</a>
+                        <h1 class="intro__title title">Смаколики по найкращим цінам у місті від 50 грн/шт</h1>
+                        <p class="intro__subtitle subtitle">
+                        Приготуємо замовлення вчасно. Доставкa в будь-який куточок
+                        Чернівців.
+                        </p>
+                        <div class="intro__footer">
+                            <a href="#" class="intro__main-btn"> Перейти до асортименту </a>
+                            <p>
+                                9 різноманітних <br />
+                                видів на вибір
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- <section class="section__shop">
+                <div class="container">
+                    <h2 class="section__title">Для будь-яких подій та дорогих вам людей</h2>
+                    <div class="services">
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="/images/catalog_img (1).png" alt="" class="service__img">
+                            <div class="service__content">
+                                <h3 class="service__title">Кремовий замок</h3>
+                                <p class="service__text">Ніжний крем будь-якого кольору
+                                на вибір, вафельна основа</p>
+                                <p class="service__price">150 грн</p>
+                                <button class="service__btn">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <section class="section__gallery">
+                <h2 class="section__gallery__title title">Зробили більше 3.000 замовлень за 2 роки</h2>
+                <p class="section__gallery__subtitle subtitle">Перегляньте фото нашим наших замовлень з instagram</p>
+                <div class="gallery">
+                    <img src="/images/photo_Layer.jpg" alt="" />
+                    <img src="/images/photo (1).png" alt="" />
+                    <img src="/images/photo (2).png" alt="" />
+                    <img src="/images/photo (3).png" alt="" />
+                    <img src="/images/photo (4).png" alt="" />
+                    <img src="/images/photo (5).png" alt="" />
+                    <img src="/images/photo (6).png" alt="" />
+                    <img src="/images/photo (7).png" alt="" />
+                    <img src="/images/photo (8).png" alt="" />
+                </div>
+            </section>
+            <section class="section__custom__order">
+                <img src="/images/Clouds.png" alt="" class="clouds__between__2-3">
+                <div class="container">
+                    <div class="custom__order__content">
+                        <a href="" class="btn__not__find"> Не знайшли те що потрібно?</a>
+                        <h2 class="custom__order__title title">Приготуємо замовлення будь-якої складності за фото чи ескізом</h2>
+                        <h3 class="custom__order__subtitle subtitle">
+                        Завантажте фото чи ескіз і ми розрахуємо вартість за 30 хвилин
+                        </h3>
+                        <a href="" class="btn__upload__photo"> Завантажити фото</a>
+                    </div>
+                </div>
+                <img src="/images/3-4.png" alt="" class="clouds__between__3-4">
+            </section>
+            <section class="section__who__will__cook">
+                <div class="flex__container container">
+                    <div class="section__who__will__cook__content">
+                        <a href="" class="btn__who__cook"> Хто буде готувати?</a>
+                        <h2 class="section__who__cook__title title">
+                        Особисто приготую та все красиво запакую спеціально для вашої події
+                        </h2>
+                        <ul class="what__I__can__do">
+                        <li>
+                            Проконсультую з вибору смаколиків та придумаю нестандартну ідею
+                        </li>
+                        <li>
+                            Приготую смаколики для вашої події, які обов'язково всім
+                            сподобаються
+                        </li>
+                        <li>
+                            Акуратно та красиво все запакую, якщо ви хочете зробити приємний
+                            подарунок
+                        </li>
+                        </ul>
+                        <a href="" class="button__write__to"> Написати Юлії</a>
+                    </div>
+                    <div class="confectioner">
+                        <img class="photo__woman" src="/images/Woman-photo.png" alt="">
+                        <p class="confectioner__name">Ілащук Юлія</p>
+                        <p class="your__confectioner confectioner__name">ваш кондитер</p>
+                    </div>
+                </div>
+                <img class="clouds__between__4-5" src="/images/clouds-between 4-5.png" alt="">
+            </section>
+        </main>
+        <footer>
+            <div class="footer__container container">
+                <div class="order__bar">
+                    <h2 class="title">Щоб зробити замовлення вкажіть ваш номер телефону</h2>
+                    <p class="subtitle">Ми зателефонуємо вам протягом 15 хвилин</p>
+                    <div class="number__bar">
+                        <input
+                            class="number"
+                            type="number"
+                            name="phone"
+                            id="phone_number"
+                            placeholder="номер телефону"
+                        />
+                        <a class="make__order" href="">Зробити замовлення</a>
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" name="subscribe" id="subscribe" value="yes" />
+                        <label class="agreement__text" for="subscribe"
+                            >Нажимаючи на кнопку ви погоджуєтесь з умовами обробки персональних
+                            даних</label>
+                    </div>
+                </div>
+                <ul class="nav__bar__footer">
+                    <li>
+                    <a>Умови обробки персональних даних</a>
+                    </li>
+                    <li>
+                    <a>Служба підтримки</a>
+                    </li>
+                    <li>
+                    <a>Політика конфіденціональності</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
